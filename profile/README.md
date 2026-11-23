@@ -101,7 +101,7 @@ flowchart LR
 ## 🏗️ 시스템 구성
 
 ```mermaid
-flowchart LR
+flowchart TB
     FE["Frontend<br/>React · TypeScript"] -- "REST" --> BE["Backend<br/>Spring Boot"]
     BE --> DB[("MySQL<br/>카탈로그 · 세션 · 결과")]
     BE -- "근거 설명" --> AI["AI Service<br/>FastAPI · LangChain"]
