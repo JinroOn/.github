@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,12,20,24&height=230&section=header&text=JinroOn&fontSize=78&fontColor=ffffff&fontAlignY=38&desc=%ED%9D%A5%EB%AF%B8%C2%B7%ED%99%9C%EB%8F%99%C2%B7%ED%95%99%EC%8A%B5%20%EC%9D%91%EB%8B%B5%EC%9C%BC%EB%A1%9C%20%EC%A0%84%EA%B3%B5%20%ED%83%90%EC%83%89%EC%9D%98%20%EA%B7%BC%EA%B1%B0%EB%A5%BC%20%EB%A7%8C%EB%93%9C%EB%8A%94%20%ED%94%8C%EB%9E%AB%ED%8F%BC&descSize=20&descAlignY=60&descColor=C8E8F8&animation=fadeIn"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1F4B,100:5BA8D4&height=230&section=header&text=JinroOn&fontSize=78&fontColor=ffffff&fontAlignY=38&desc=%ED%9D%A5%EB%AF%B8%C2%B7%ED%99%9C%EB%8F%99%C2%B7%ED%95%99%EC%8A%B5%20%EC%9D%91%EB%8B%B5%EC%9C%BC%EB%A1%9C%20%EC%A0%84%EA%B3%B5%20%ED%83%90%EC%83%89%EC%9D%98%20%EA%B7%BC%EA%B1%B0%EB%A5%BC%20%EB%A7%8C%EB%93%9C%EB%8A%94%20%ED%94%8C%EB%9E%AB%ED%8F%BC&descSize=20&descAlignY=60&descColor=C8E8F8&animation=fadeIn"/>
 
 **진로온** · 영남대학교 종합설계 2026
 
@@ -12,7 +12,7 @@
 
 <br/>
 
-## 진로온은
+## 🧭 진로온은
 
 전공을 고르기 전에 **무엇부터 알아봐야 할지** 정리해 주는 전공 탐색 웹 플랫폼입니다.
 
@@ -22,14 +22,11 @@
 
 <br/>
 
-## 진단 흐름
+## 🔄 진단 흐름
 
 ```mermaid
 flowchart LR
-    A["1단계<br/>공통 탐색"] --> B["2단계<br/>맞춤 질문"] --> C["3단계<br/>확인할 점"] --> D["결과<br/>전공군 · 전공 · 근거"]
-    D --> E["전공 비교"]
-    D --> F["탐색 활동"]
-    D --> G["AI 상담 · 12주 계획"]
+    A["1단계<br/>공통 탐색"] --> B["2단계<br/>맞춤 질문"] --> C["3단계<br/>확인할 점"] --> D["결과<br/>전공군 · 전공 · 근거"] --> E["비교 · 활동<br/>AI 상담 · 12주 계획"]
 ```
 
 | 단계 | 하는 일 | 최대 문항 |
@@ -43,7 +40,7 @@ flowchart LR
 
 <br/>
 
-## 추천 방식
+## 🧮 추천 방식
 
 점수에 쓰는 응답은 **관심 · 활동 · 학습** 세 가지뿐입니다.
 
@@ -74,7 +71,7 @@ flowchart LR
 
 <br/>
 
-## AI의 역할
+## 🤖 AI의 역할
 
 | AI가 하는 일 | AI가 하지 않는 일 |
 |---|---|
@@ -86,7 +83,7 @@ flowchart LR
 
 <br/>
 
-## 주요 기능
+## ✨ 주요 기능
 
 | 기능 | 설명 |
 |---|---|
@@ -101,15 +98,14 @@ flowchart LR
 
 <br/>
 
-## 시스템 구성
+## 🏗️ 시스템 구성
 
 ```mermaid
 flowchart LR
-    U(("사용자")) --> FE["Frontend<br/>React · TypeScript"]
-    FE -- "REST / JSON" --> BE["Backend<br/>Spring Boot"]
-    BE --> DB[("MySQL<br/>회원 · 카탈로그 · 세션 · 결과")]
-    BE -- "근거 설명 요청" --> AI["AI Service<br/>FastAPI · LangChain"]
-    AI --> VDB[("PostgreSQL<br/>pgvector · 전공 RAG")]
+    FE["Frontend<br/>React · TypeScript"] -- "REST" --> BE["Backend<br/>Spring Boot"]
+    BE --> DB[("MySQL<br/>카탈로그 · 세션 · 결과")]
+    BE -- "근거 설명" --> AI["AI Service<br/>FastAPI · LangChain"]
+    AI --> VDB[("PostgreSQL<br/>pgvector RAG")]
     AI --> LLM["LLM"]
 ```
 
@@ -139,7 +135,7 @@ flowchart LR
 
 <br/>
 
-## 데이터
+## 🗂️ 데이터
 
 | 항목 | 수량 |
 |---|---|
@@ -152,7 +148,7 @@ flowchart LR
 
 <br/>
 
-## 리포지토리
+## 📦 리포지토리
 
 | 리포지토리 | 내용 |
 |---|---|
@@ -162,7 +158,7 @@ flowchart LR
 
 <br/>
 
-## 팀원
+## 👥 팀원
 
 <div align="center">
 
@@ -217,7 +213,7 @@ flowchart LR
 
 <br/>
 
-## 프로젝트 상태
+## 📌 프로젝트 상태
 
 2026년 11월에 종합설계 프로젝트로 마무리했습니다.
 
@@ -229,5 +225,5 @@ flowchart LR
 <br/>
 
 <div align="center">
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,12,20,24&height=130&section=footer&animation=fadeIn"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:5BA8D4,100:0B1F4B&height=130&section=footer&animation=fadeIn"/>
 </div>
